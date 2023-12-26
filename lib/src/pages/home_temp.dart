@@ -19,7 +19,7 @@ class HomePageTemp extends StatelessWidget {
         title: Text('Componentes Temp'),
       ),
        body: ListView(
-         children:_crearItems()
+         children:[] //_crearItems()
          
        )
     );
@@ -30,31 +30,31 @@ class HomePageTemp extends StatelessWidget {
 
 // -----------Metodos------------------------
 
-List<Widget> _crearItems() {
+// List<Widget> _crearItems() {
 
-  List<Widget> lista = new List<Widget>();
+//   List<Widget> lista = new List<Widget>();
 
-for (String opc in opciones) {
+// for (String opc in opciones) {
 
-  final tempWidget = ListTile(
-    title: Text( opc ),
-    subtitle: Text('Cualquier cosa'),
-    leading: Icon(Icons.access_alarm),
-    trailing: Icon(Icons.keyboard_arrow_right),
-    onTap: (){},
-  );
+//   final tempWidget = ListTile(
+//     title: Text( opc ),
+//     subtitle: Text('Cualquier cosa'),
+//     leading: Icon(Icons.access_alarm),
+//     trailing: Icon(Icons.keyboard_arrow_right),
+//     onTap: (){},
+//   );
   
 
-lista..add(tempWidget)
-      ..add(Divider());
+// lista..add(tempWidget)
+//       ..add(Divider());
 
 
-}
+// }
 
 
-return lista;
-}
+// return lista;
+// }
 
 
 
-} // END class
+ } // END class
